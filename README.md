@@ -1,0 +1,99 @@
+[index.html](https://github.com/user-attachments/files/29211699/index.html)
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light dev | لايت المبرج</title>
+    <link rel="stylesheet" href="styl2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+
+<div class="main-container" style="display: flex; width: 100%; min-height: 100vh; box-sizing: border-box;">
+    
+    <div class="hero-section" style="flex: 1; padding: 40px; box-sizing: border-box;">
+        <div class="hero-content">
+            <h1 class="hero-text">أنا مبرمج ويب متعلم واعد أبني مستقبلي كود بكود</h1>
+            <p class="hero-subtext">شغوف بتعلم تقنيات الفرونت إند وتحويل الأفكار إلى واجهات مستخدم حقيقية وتفاعلية</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" style="text-decoration: none;">
+                    <button class="hero-btn">تصفح مشاريعي</button>
+                </a>
+                <a href="#about" style="text-decoration: none;">
+                    <button class="hero-btn">تعريف عني</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="skills-sidebar" style="width: 300px; background: #000; padding: 40px; box-sizing: border-box;">
+        <h2 class="section-title">التقنيات والمهارات</h2>
+        <div class="skills-vertical-container">
+            <div class="skill-card">
+                <div class="skill-info">
+                    <h3>HTML5</h3>
+                    <p>بناء هيكلية صفحات الويب بشكل منظم وبمعياري حديث</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <h3>CSS3</h3>
+                    <p>تنسيق الواجهات، إضافة الألوان، وصناعة الأنميشن</p>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-info">
+                    <h3>تطوير الفرونت إند</h3>
+                    <p>تحويل التصاميم إلى مواقع حقيقية وتفاعلية بالكامل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<section id="about" class="about-section">
+    <div class="about-container">
+        <h2 class="about-title">من أنا?</h2>
+        <p class="about-bio">
+            صانع محتوى ومطور ويب طموح، أدمج بين الفن البرمجي ولمسات الـ Editing الاحترافية. 
+            أؤمن بأن النجاح يرتكز على ثلاثة أعمدة: <strong>الهدوء، الإيمان، والانضباط</strong>.
+        </p>
+        <a href="https://www.instagram.com/" target="_blank" class="instagram-card">
+            <div class="insta-icon">📸</div>
+            <div class="insta-info">
+                <span class="insta-name">Light☆</span>
+                <span class="insta-meta">Editor • +1K Followers</span>
+            </div>
+            <span class="insta-action">تابعني ←</span>
+        </a>
+    </div>
+</section>
+
+<section id="projects" class="projects-section">
+    <h2 class="section-title-center">معرض المشاريع والإنجازات</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-badge">Front-End</div>
+            <h3>تطوير واجهة مستخدم حديثة</h3>
+            <p>موقع شخصي متكامل ومقسّم باحترافية مع خلفيات أنمي وتأثيرات حركية مخصصة وشريط تمرير فريد.</p>
+            <div class="project-tech"><span>HTML5</span> <span>CSS3</span></div>
+        </div>
+        <div class="project-card">
+            <div class="project-badge">Gaming Tech</div>
+            <h3>تخصيص وبرمجة الألعاب</h3>
+            <p>العمل على تعديل ملفات الجافا وتطوير واجهات مخصصة وحل مشاكل الأداء في خوادم وعوالم Minecraft.</p>
+            <div class="project-tech"><span>Optimization</span> <span>UI Design</span></div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
