@@ -1,0 +1,306 @@
+
+
+img{
+    width: 70PX;
+    height: auto;
+    border-radius: 30px;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    
+    }
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cairo', sans-serif;
+      
+    background-image: url(bbleu.wavy,background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: auto;
+    min-height: 120vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navigation a {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+
+}
+.navigation a:hover {
+   text-decoration: none;
+   color: mediumorchid;
+}
+hr{
+opacity: 100%;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #060913;
+    overflow-x: hidden;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: row-reverse; 
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hero-section {
+    flex: 60%;
+    background-image: linear-gradient(rgba(6, 9, 19, 0.5), rgba(6, 9, 19, 0.5)), url('اسم_صورة_الأنمي.jpg'); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-text {
+    font-family: 'cairo', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.hero-subtext {
+    font-family: 'cairo', sans-serif;
+    color: #e2e8f0;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-btn {
+    padding: 12px 28px;
+    background-color: #0b0f19;
+    color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    font-family: 'cairo', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #0c61d1;
+    border-color: #0c61d1;
+    transform: scale(1.05);
+}
+
+.skills-sidebar {
+    flex: 40%;
+    background: #0b0f19; 
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 50px 30px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.section-title {
+    font-family: 'cairo', sans-serif;
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skills-vertical-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    width: 100%;
+    max-width: 360px;
+}
+
+.skill-card {
+    background: rgba(6, 9, 19, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 2;
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+    font-family: 'cairo', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.skill-icon {
+    font-size: 2.2rem;
+}
+
+.skill-info h3 {
+    color: #ffffff;
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+}
+
+.skill-info p {
+    color: #a0aec0;
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+.skill-card:hover {
+    transform: translateX(-5px); 
+    border-color: #0c61d1;
+    box-shadow: 0 5px 15px rgba(12, 97, 209, 0.2);
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #060913;
+}
+::-webkit-scrollbar-thumb{
+    background: #3b82f6;
+    border-radius: 20px;
+    border: #060913;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #60a5fa;
+}
+    
+/* تنسيق قسم التعريف الشخصي */
+.about-section {
+    padding: 80px 20px;
+    background-color: #0d1527;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-title {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.about-bio {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-bio strong {
+    color: #3b82f6;
+}
+
+/* بطاقة إنستغرام */
+.instagram-card {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(59, 130, 246, 0.08);
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    gap: 15px;
+    transition: all 0.3s ease;
+}
+
+.instagram-card:hover {
+    background: #3b82f6;
+    transform: scale(1.05);
+}
+
+.insta-name { color: #fff; font-weight: bold; }
+.insta-meta { color: #64748b; font-size: 0.8rem; }
+.instagram-card:hover .insta-name, 
+.instagram-card:hover .insta-meta { color: #fff; }
+
+/* تنسيق قسم المشاريع */
+.projects-section {
+    padding: 80px 20px;
+    background-color: #0b111e;
+    text-align: center;
+}
+
+.section-title {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background: #151f32;
+    border: 1px solid #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: right;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-badge {
+    background: #3b82f6;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.project-card h3 { color: #fff; margin-bottom: 10px; }
+.project-card p { color: #94a3b8; font-size: 0.9rem; line-height: 1.6; }
+.project-tech { margin-top: 15px; display: flex; gap: 10px; }
+.project-tech span { background: #1e293b; color: #3b82f6; padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; }
